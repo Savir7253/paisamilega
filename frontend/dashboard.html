@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | ScrapSetu</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>ScrapSetu Dashboard</h1>
+
+        <p id="welcomeMessage">
+            Welcome!
+        </p>
+
+        <button onclick="goToPrediction()">
+            🤖 Predict Scrap Price
+        </button>
+
+        <button onclick="goToRates()">
+            💰 View Scrap Rates
+        </button>
+
+        <button onclick="goToPickup()">
+            🚚 Book Scrap Pickup
+        </button>
+
+        <button onclick="viewPickups()">
+            📦 My Pickups
+        </button>
+
+        <button onclick="logout()">
+            🚪 Logout
+        </button>
+
+        <div id="dashboardResult"
+             class="result">
+        </div>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

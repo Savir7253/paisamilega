@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | ScrapSetu</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📞 Contact ScrapSetu</h1>
+
+        <p>
+            Have a question? Send us a message.
+        </p>
+
+
+        <form id="contactForm">
+
+            <label>Name</label>
+
+            <input
+                type="text"
+                id="contactName"
+                required
+            >
+
+
+            <label>Email</label>
+
+            <input
+                type="email"
+                id="contactEmail"
+                required
+            >
+
+
+            <label>Subject</label>
+
+            <input
+                type="text"
+                id="contactSubject"
+                required
+            >
+
+
+            <label>Message</label>
+
+            <textarea
+                id="contactMessage"
+                rows="6"
+                required
+            ></textarea>
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+
+        <div id="contactResult"
+             class="result">
+        </div>
+
+    </div>
+
+
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>

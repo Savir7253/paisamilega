@@ -1,36 +1,581 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <title>Garbage Price Predictor</title>
+    <title>ScrapSetu | Turn Scrap Into Value</title>
 
-    <link rel="stylesheet"
-          href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <div class="container">
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-        <h1>Garbage Price Prediction</h1>
+    <header class="navbar">
 
-        <p>
-            Predict the approximate scrap value of your waste
-            material.
-        </p>
+        <!-- Logo -->
 
-        <a href="prediction.html">
-            <button>
-                Predict Price
-            </button>
+        <a
+            class="brand"
+            href="index.html"
+        >
+
+            <span class="brand-mark">
+                ♻
+            </span>
+
+            <span>
+                Scrap<span>Setu</span>
+            </span>
+
         </a>
 
-    </div>
+
+        <!-- Mobile Menu Button -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+        >
+            ☰
+        </button>
+
+
+        <!-- Navigation -->
+
+        <nav id="navMenu">
+            <div class="hero-actions">
+
+                    <a
+                        
+                        href="login.html"
+                    >
+                    login
+                    </a>
+
+
+            <a
+                class="active"
+                href="index.html"
+            >
+                Home
+            </a>
+
+            <a href="rates.html">
+                Scrap Rates
+            </a>
+
+            <!-- <a href="prediction.html">
+                Sell Scrap
+            </a> -->
+            <a href="pickup.html">
+                Sell Scrap
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="terms.html">
+                Terms
+            </a>
+
+        </nav>
+
+
+        <!-- Main CTA -->
+
+        <a
+            class="nav-cta"
+            href="prediction.html"
+        >
+            Get Price →
+        </a>
+         
+    </header>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+       
+
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    SMART SCRAP • FAIR VALUE • EASY PROCESS
+                </div>
+
+
+                <h1>
+                    Turn your
+                    <span>scrap</span>
+                    <br>
+                    into real value.
+                </h1>
+
+
+                <p>
+                    Get an estimated scrap price based on
+                    material, quality, weight and location —
+                    then take the next step toward selling
+                    responsibly.
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a
+                        class="btn btn-primary"
+                        href="prediction.html"
+                    >
+                        Estimate My Scrap
+                        <span>→</span>
+                    </a>
+
+
+                    <a
+                        class="btn btn-light"
+                        href="rates.html"
+                    >
+                        View Scrap Rates
+                    </a>
+
+                </div>
+
+
+                <div class="trust-row">
+
+                    <span>
+                        ✓ Smart price estimation
+                    </span>
+
+                    <span>
+                        ✓ Transparent calculation
+                    </span>
+
+                    <span>
+                        ✓ Eco-friendly recycling
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 ESTIMATE CARD
+            ========================== -->
+
+            <div class="hero-card">
+
+                <div class="card-top">
+
+                    <span>
+                        ♻ Live Estimate
+                    </span>
+
+                    <span class="dot"></span>
+
+                </div>
+
+
+                <div class="estimate-icon">
+                    ₹
+                </div>
+
+
+                <div class="muted">
+                    Your scrap could be worth
+                </div>
+
+
+                <!-- Demo/example value -->
+                <div class="big-price">
+                    ₹2,450
+                </div>
+
+
+                <div class="estimate-line">
+
+                    <span>
+                        Material
+                    </span>
+
+                    <strong>
+                        Copper
+                    </strong>
+
+                </div>
+
+
+                <div class="estimate-line">
+
+                    <span>
+                        Weight
+                    </span>
+
+                    <strong>
+                        5 kg
+                    </strong>
+
+                </div>
+
+
+                <div class="estimate-line">
+
+                    <span>
+                        Quality
+                    </span>
+
+                    <strong>
+                        Good
+                    </strong>
+
+                </div>
+
+
+                <a
+                    href="prediction.html"
+                    class="mini-btn"
+                >
+                    Calculate your price →
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             STATS
+        ========================== -->
+
+        <section class="stats">
+
+            <div>
+
+                <strong>
+                    01
+                </strong>
+
+                <span>
+                    Smart Price Engine
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    06+
+                </strong>
+
+                <span>
+                    Scrap Materials
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    03
+                </strong>
+
+                <span>
+                    Quality Levels
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    100%
+                </strong>
+
+                <span>
+                    Digital Process
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <div class="eyebrow">
+                        HOW IT WORKS
+                    </div>
+
+                    <h2>
+                        From scrap to value in 4 steps.
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    No complicated process. Enter your
+                    scrap details and get an estimated
+                    value in seconds.
+                </p>
+
+            </div>
+
+
+
+            <div class="steps">
+
+
+                <!-- Step 1 -->
+
+                <article>
+
+                    <div class="step-no">
+                        01
+                    </div>
+
+                    <h3>
+                        Select material
+                    </h3>
+
+                    <p>
+                        Choose the type of scrap you
+                        want to sell.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Step 2 -->
+
+                <article>
+
+                    <div class="step-no">
+                        02
+                    </div>
+
+                    <h3>
+                        Add details
+                    </h3>
+
+                    <p>
+                        Enter quality, weight,
+                        location and date.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Step 3 -->
+
+                <article>
+
+                    <div class="step-no">
+                        03
+                    </div>
+
+                    <h3>
+                        Get estimate
+                    </h3>
+
+                    <p>
+                        Our prediction model
+                        estimates the value.
+                    </p>
+
+                </article>
+
+
+
+                <!-- Step 4 -->
+
+                <article>
+
+                    <div class="step-no">
+                        04
+                    </div>
+
+                    <h3>
+                        Plan your sale
+                    </h3>
+
+                    <p>
+                        Use the estimate to make
+                        an informed decision.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             WHY SCRAPSETU
+        ========================== -->
+
+        <section class="feature-band">
+
+            <div>
+
+                <div class="eyebrow">
+                    WHY SCRAPSETU
+                </div>
+
+
+                <h2>
+                    A smarter way to understand
+                    scrap value.
+                </h2>
+
+
+                <p>
+                    Built around a machine-learning
+                    price prediction system and a
+                    simple user experience.
+                </p>
+
+            </div>
+
+
+            <a
+                class="btn btn-primary"
+                href="prediction.html"
+            >
+                Try Price Predictor →
+            </a>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+
+        <!-- Footer Brand -->
+
+        <div>
+
+            <a
+                class="brand"
+                href="index.html"
+            >
+
+                <span class="brand-mark">
+                    ♻
+                </span>
+
+                <span>
+                    Scrap<span>Setu</span>
+                </span>
+
+            </a>
+
+
+            <p>
+                Smart scrap valuation for a cleaner future.
+            </p>
+
+        </div>
+
+
+
+        <!-- Footer Links -->
+
+        <div class="footer-links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="rates.html">
+                Rates
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="terms.html">
+                Terms
+            </a>
+
+        </div>
+
+
+
+        <!-- Copyright -->
+
+        <div>
+            © 2026 ScrapSetu
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="js/script.js"></script>
 
 </body>
 
